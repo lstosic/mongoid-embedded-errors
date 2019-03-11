@@ -4,10 +4,10 @@ test:
     default:
       database: mongoid_embedded_errors_test
       hosts:
-        - localhost:27017
+        - db
   # mongoid 5 and newer
   clients:
     default:
       database: mongoid_embedded_errors_test
       hosts:
-        - localhost:27017
+        - db
